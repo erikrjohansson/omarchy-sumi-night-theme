@@ -17,6 +17,14 @@ omarchy theme update
 omarchy theme set sumi-night
 ```
 
+## Removing
+
+Switch to another theme first (for example with `omarchy theme switcher`), then remove Sumi Night:
+
+```sh
+omarchy theme remove sumi-night
+```
+
 ## Wallpapers
 
 Plum branch (default), ensō, ridges and koi. Cycle through them from the Omarchy menu under Style → Background.
