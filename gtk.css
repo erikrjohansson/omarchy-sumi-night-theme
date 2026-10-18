@@ -1,0 +1,77 @@
+/* Sumi Night — charcoal paper, ivory ink and one vermilion seal for GTK 3 / GTK 4. */
+@define-color window_bg_color #16171b;
+@define-color window_fg_color #e6dfd0;
+@define-color view_bg_color #16171b;
+@define-color view_fg_color #e6dfd0;
+@define-color headerbar_bg_color #121316;
+@define-color headerbar_fg_color #e6dfd0;
+@define-color headerbar_backdrop_color #121316;
+@define-color headerbar_border_color #444343;
+@define-color headerbar_shade_color rgba(0, 0, 0, 0.06);
+@define-color sidebar_bg_color #121316;
+@define-color sidebar_fg_color #e6dfd0;
+@define-color sidebar_backdrop_color #121316;
+@define-color sidebar_border_color #444343;
+@define-color sidebar_shade_color rgba(0, 0, 0, 0.06);
+@define-color secondary_sidebar_bg_color #121316;
+@define-color secondary_sidebar_fg_color #e6dfd0;
+@define-color secondary_sidebar_backdrop_color #121316;
+@define-color secondary_sidebar_border_color #444343;
+@define-color card_bg_color #202126;
+@define-color card_fg_color #e6dfd0;
+@define-color card_shade_color rgba(0, 0, 0, 0.06);
+@define-color popover_bg_color #202126;
+@define-color popover_fg_color #e6dfd0;
+@define-color popover_shade_color rgba(0, 0, 0, 0.10);
+@define-color dialog_bg_color #202126;
+@define-color dialog_fg_color #e6dfd0;
+@define-color thumbnail_bg_color #202126;
+@define-color thumbnail_fg_color #e6dfd0;
+@define-color accent_bg_color #d4523b;
+@define-color accent_fg_color #16171b;
+@define-color accent_color #d4523b;
+@define-color destructive_bg_color #d4523b;
+@define-color destructive_fg_color #16171b;
+@define-color destructive_color #d4523b;
+@define-color error_bg_color #d4523b;
+@define-color error_fg_color #16171b;
+@define-color error_color #d4523b;
+@define-color warning_bg_color #cbb48a;
+@define-color warning_fg_color #16171b;
+@define-color warning_color #cbb48a;
+@define-color success_bg_color #a3ab8c;
+@define-color success_fg_color #16171b;
+@define-color success_color #a3ab8c;
+@define-color borders #444343;
+@define-color unfocused_borders #444343;
+@define-color shade_color rgba(0, 0, 0, 0.08);
+@define-color theme_bg_color #16171b;
+@define-color theme_fg_color #e6dfd0;
+@define-color theme_base_color #16171b;
+@define-color theme_text_color #e6dfd0;
+@define-color theme_selected_bg_color #462623;
+@define-color theme_selected_fg_color #e6dfd0;
+@define-color insensitive_bg_color #202126;
+@define-color insensitive_fg_color #9a958b;
+@define-color insensitive_base_color #202126;
+@define-color theme_unfocused_bg_color #16171b;
+@define-color theme_unfocused_fg_color #9a958b;
+@define-color theme_unfocused_base_color #16171b;
+@define-color theme_unfocused_text_color #9a958b;
+@define-color theme_unfocused_selected_bg_color #322020;
+@define-color theme_unfocused_selected_fg_color #e6dfd0;
+@define-color link_color #d4523b;
+@define-color visited_link_color #9a958b;
+
+selection { background-color: #2f2627; color: #f7f2e6; }
+button.suggested-action { background-color: #d4523b; color: #16171b; }
+button.suggested-action:hover { background-color: #db705c; color: #16171b; }
+button.destructive-action { background-color: #d4523b; color: #16171b; }
+
+/* Selected files and list rows: a tint of the vermilion seal with normal text,
+ * so a selection doesn't outweigh the files themselves. */
+row:selected, .view:selected, gridview > child:selected,
+columnview > listview > row:selected, iconview:selected, treeview.view:selected {
+  background-color: #462623;
+  color: #e6dfd0;
+}

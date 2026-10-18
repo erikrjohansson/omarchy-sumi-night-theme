@@ -5,9 +5,9 @@ accent = "#d4523b"
 selection = "#2f2627"
 muted = "#6a6762"
 
-# Softer seal on the window edge: vermilion fading to dried ink-red.
-hyprland_active_border = "rgba(d4523bbb) rgba(9a3d2e99) 45deg"
-hyprland_inactive_border = "rgba(6f6c6640)"
+# Window edge: the vermilion seal softened into the charcoal paper; inactive is a warm ink grey.
+hyprland_active_border = "#b84936"
+hyprland_inactive_border = "#444343"
 
 background = "#16171b"
 dark_background = "#121316"
